@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import movieApi from "../../public/Portfolio/Movie-Api.png";
-import pokeApi from "../../public/Portfolio/Poke-Api.png";
+import pokeApi from "../../public/Portfolio/Poke-API.png";
 
 export default function Portfolio() {
   return (
