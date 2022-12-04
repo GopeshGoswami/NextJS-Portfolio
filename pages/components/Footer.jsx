@@ -22,7 +22,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AiFillGithub className=" mx-2 text-3xl" />
+            <AiFillGithub className=" mx-2 text-3xl dark:hover:text-black transition-all duration-300 dark:text-white text-black hover:text-white" />
           </a>
         </p>
       </div>
