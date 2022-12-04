@@ -20,7 +20,13 @@ export default function Skills() {
       </div>
       <div className=" lg:flex gap-10">
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-900">
-          <Image src={design} width={100} height={100} className=" mx-auto" />
+          <Image
+            src={design}
+            width={100}
+            height={100}
+            alt=""
+            className=" mx-auto"
+          />
           <h3 className=" text-lg font-medium pt-8 pb-2 dark:text-teal-600">
             Beautiful Designs
           </h3>
@@ -39,7 +45,13 @@ export default function Skills() {
         </div>
 
         <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:shadow-sm dark:bg-gray-900">
-          <Image src={code} width={100} height={100} className=" mx-auto" />
+          <Image
+            src={code}
+            width={100}
+            height={100}
+            alt=""
+            className=" mx-auto"
+          />
           <h3 className=" text-lg font-medium pt-8 pb-2 dark:text-teal-600">
             Frontend Developer
           </h3>

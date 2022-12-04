@@ -17,6 +17,7 @@ export default function Portfolio() {
             className=" rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt=""
             layout="responsive"
           />
           <div className=" absolute top-0 left-0 w-full h-full rounded-lg hover:cursor-pointer bg-[#00000051] backdrop-blur-sm flex flex-col items-center justify-center text-center opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -42,6 +43,7 @@ export default function Portfolio() {
             className=" rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt=""
             layout="responsive"
           />
           <div className=" absolute top-0 left-0 w-full h-full rounded-lg hover:cursor-pointer bg-[#00000051] backdrop-blur-sm flex flex-col items-center justify-center text-center opacity-0 hover:opacity-100 transition-opacity duration-300">

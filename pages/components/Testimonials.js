@@ -55,6 +55,7 @@ export default function Testimonials() {
                   src={nishant}
                   width={150}
                   height={150}
+                  alt=""
                   className=" mx-auto rounded-full"
                 />
                 <p className=" text-sm max-w-xl mx-auto py-10 text-center dark:text-white md:text-lg">
@@ -77,6 +78,7 @@ export default function Testimonials() {
                   src={divya}
                   width={150}
                   height={150}
+                  alt=""
                   className=" mx-auto rounded-full"
                 />
                 <p className=" text-sm max-w-2xl mx-auto py-10 text-center dark:text-white md:text-lg">

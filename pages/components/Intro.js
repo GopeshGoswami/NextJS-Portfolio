@@ -46,7 +46,7 @@ export default function Intro() {
         </a>
       </div>
       <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full z-1 w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-        <Image src={deved} layout="fill" objectFit="cover" />
+        <Image src={deved} alt="" layout="fill" objectFit="cover" />
       </div>
     </section>
   );
