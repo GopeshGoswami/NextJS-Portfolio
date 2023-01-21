@@ -49,7 +49,7 @@ export default function Navbar(props) {
         </li>
         <li>
           <a
-            href="/Resume.pdf"
+            href="/myCV.pdf"
             target="_blank"
             className=" text-[0.8rem] md:text-base bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-4 md:ml-8"
           >

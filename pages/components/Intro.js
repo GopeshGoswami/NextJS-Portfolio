@@ -11,12 +11,12 @@ import gopu from "../../public/3dGopu.png";
 export default function Intro() {
   return (
     <section className="min-h-screen">
-      <div className=" text-center p-2">
+      <div className=" text-center m-auto p-2">
         <h2 className=" text-4xl text-teal-600 font-medium md:text-6xl">
           Gopesh Goswami
         </h2>
         <h3 className=" text-lg py-2 md:text-3xl dark:text-white">
-          Designer & Front-End Developer
+          Designer & MERN Stack Developer
         </h3>
         <p className=" text-md py-5 leading-8 text-gray-800 max-w-xs md:text-xl mx-auto dark:text-gray-400">
           I design and code beautifully simple things, and I love what I do.
