@@ -75,7 +75,7 @@ export default function Portfolio() {
           />
           <div className=" absolute top-0 left-0 w-full h-full rounded-lg hover:cursor-pointer bg-[#00000051] backdrop-blur-sm flex flex-col items-center justify-center text-center opacity-0 hover:opacity-100 transition-opacity duration-300">
             <a
-              href="https://calm-gold-chiton-wrap.cyclic.app/"
+              href="https://mern-todo-xi.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className=" text-teal-300 p-2  text-2xl"
