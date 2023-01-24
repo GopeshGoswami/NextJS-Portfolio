@@ -20,7 +20,7 @@ export default function Skills() {
         </p>
       </div>
       <div className=" lg:flex gap-10">
-        <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-900">
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10 bg-teal-50 dark:bg-gray-900">
           <Image
             src={design}
             width={100}
@@ -45,7 +45,7 @@ export default function Skills() {
           <p className=" text-gray-800 py-1 dark:text-white">Freepik</p>
         </div>
 
-        <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:shadow-sm dark:bg-gray-900">
+        <div className=" text-center shadow-lg p-10 rounded-xl bg-teal-50 my-10 dark:shadow-sm dark:bg-gray-900">
           <Image
             src={code}
             width={100}
