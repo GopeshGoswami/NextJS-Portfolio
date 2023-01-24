@@ -1,15 +1,23 @@
 import Head from "next/head";
 // Components Start
-import {
-  Collaboration,
-  Footer,
-  Intro,
-  Navbar,
-  Particle,
-  Portfolio,
-  Skills,
-  Testimonials,
-} from "./components/Imports.js";
+// import {
+//   Collaboration,
+//   Footer,
+//   Intro,
+//   Navbar,
+//   Particle,
+//   Portfolio,
+//   Skills,
+//   Testimonials,
+// } from "./components/Imports.js";
+import Collaboration from "./components/Collaboration";
+import Footer from "./components/Footer";
+import Intro from "./components/Intro";
+import Navbar from "./components/Navbar";
+import Particle from "./components/Particle";
+import Portfolio from "./components/Portfolio";
+import Skills from "./components/Skills";
+import Testimonials from "./components/Testimonials";
 // Components End
 import { useState } from "react";
 
