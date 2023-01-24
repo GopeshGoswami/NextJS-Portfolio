@@ -9,7 +9,7 @@ import {
   Portfolio,
   Skills,
   Testimonials,
-} from "./components/index";
+} from "./components/Index.js";
 // Components End
 import { useState } from "react";
 
