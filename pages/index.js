@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Particle from "./components/Particle";
+import Particles2 from "./components/Particles2";
 import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
@@ -22,7 +23,7 @@ import Testimonials from "./components/Testimonials";
 import { useState } from "react";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -32,9 +33,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" bg-transparent dark:bg-black">
+      <main className=" bg-transparent dark:bg-transparent">
         <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />
-        <Particle darkMode={darkMode} />
+        {darkMode ? <Particle /> : <Particles2 />}
         <div className="px-10 md:px-20 lg:px-40 z-50">
           <Intro />
           <Skills />
@@ -42,9 +43,7 @@ export default function Home() {
           <Testimonials />
           <Portfolio />
         </div>
-        <footer>
-          <Footer />
-        </footer>
+        <Footer />
       </main>
     </div>
   );

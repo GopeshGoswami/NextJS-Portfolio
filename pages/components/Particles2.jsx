@@ -21,7 +21,7 @@ function Particle() {
       options={{
         background: {
           color: {
-            value: "#000",
+            value: "#fff",
           },
           zIndex: -100,
         },
@@ -50,10 +50,10 @@ function Particle() {
         },
         particles: {
           color: {
-            value: "#14B8A6",
+            value: "#17c0c4",
           },
           links: {
-            color: "#14B8A6",
+            color: "#17c0c4",
             distance: 150,
             enable: true,
             opacity: 0.5,
